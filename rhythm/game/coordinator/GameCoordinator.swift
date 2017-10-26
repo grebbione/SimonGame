@@ -12,6 +12,9 @@ import SimonGamePod
 
 class GameCoordinator {
     
+    /**
+     Setup game
+     */
     func start() -> UIViewController {
         let tapViewController = TapViewController()
         let gameViewModel = SimonGameViewModel(tickDurationSeconds: 1.0)

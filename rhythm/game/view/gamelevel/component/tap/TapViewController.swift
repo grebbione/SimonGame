@@ -82,6 +82,7 @@ class TapViewController: UIViewController{
     }
 }
 
+//MARK: - game delegate
 extension TapViewController: SimonGameViewControllerDelegate {
     
     func gameFinished(score: SimonGameViewModel.PlayerScore) {
