@@ -13,7 +13,6 @@
 		3D8751DD1F9B1FBA00E8C978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8751DC1F9B1FBA00E8C978 /* AppDelegate.swift */; };
 		3D8751E41F9B1FBA00E8C978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8751E31F9B1FBA00E8C978 /* Assets.xcassets */; };
 		3D8751E71F9B1FBA00E8C978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8751E51F9B1FBA00E8C978 /* LaunchScreen.storyboard */; };
-		3D87520F1F9B229000E8C978 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D87520E1F9B229000E8C978 /* Constant.swift */; };
 		3D8752111F9B254800E8C978 /* GameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8752101F9B254800E8C978 /* GameCoordinator.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		3D8751E31F9B1FBA00E8C978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D8751E61F9B1FBA00E8C978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D8751E81F9B1FBA00E8C978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D87520E1F9B229000E8C978 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3D8752101F9B254800E8C978 /* GameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoordinator.swift; sourceTree = "<group>"; };
 		9D9F42718DE5FF203D487492 /* Pods-rhythm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rhythm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rhythm/Pods-rhythm.debug.xcconfig"; sourceTree = "<group>"; };
 		D001C31D2EF97501D53DCA6B /* Pods-rhythm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rhythm.release.xcconfig"; path = "Pods/Target Support Files/Pods-rhythm/Pods-rhythm.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,8 +72,7 @@
 		3D8751DB1F9B1FBA00E8C978 /* rhythm */ = {
 			isa = PBXGroup;
 			children = (
-				3D87520D1F9B228500E8C978 /* constant */,
-				3D8752011F9B1FF500E8C978 /* mvvm */,
+				3D8752011F9B1FF500E8C978 /* game */,
 				3D8751DC1F9B1FBA00E8C978 /* AppDelegate.swift */,
 				3D8751E31F9B1FBA00E8C978 /* Assets.xcassets */,
 				3D8751E51F9B1FBA00E8C978 /* LaunchScreen.storyboard */,
@@ -100,13 +97,13 @@
 			path = coordinator;
 			sourceTree = "<group>";
 		};
-		3D8752011F9B1FF500E8C978 /* mvvm */ = {
+		3D8752011F9B1FF500E8C978 /* game */ = {
 			isa = PBXGroup;
 			children = (
 				3D8752001F9B1FEA00E8C978 /* coordinator */,
 				3D8751FF1F9B1FE200E8C978 /* view */,
 			);
-			path = mvvm;
+			path = game;
 			sourceTree = "<group>";
 		};
 		3D8752041F9B203900E8C978 /* gamelevel */ = {
@@ -123,14 +120,6 @@
 				3D4F9D7A1F9CF96400339260 /* tap */,
 			);
 			path = component;
-			sourceTree = "<group>";
-		};
-		3D87520D1F9B228500E8C978 /* constant */ = {
-			isa = PBXGroup;
-			children = (
-				3D87520E1F9B229000E8C978 /* Constant.swift */,
-			);
-			path = constant;
 			sourceTree = "<group>";
 		};
 		F62903B5F183F1837E9C29F8 /* Pods */ = {
@@ -275,7 +264,6 @@
 			files = (
 				3D4F9D7D1F9CF97F00339260 /* TapViewController.swift in Sources */,
 				3D8752111F9B254800E8C978 /* GameCoordinator.swift in Sources */,
-				3D87520F1F9B229000E8C978 /* Constant.swift in Sources */,
 				3D8751DD1F9B1FBA00E8C978 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
