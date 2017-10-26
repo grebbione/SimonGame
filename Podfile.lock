@@ -1,0 +1,12 @@
+PODS:
+  - SimonGamePod (0.1.5)
+
+DEPENDENCIES:
+  - SimonGamePod
+
+SPEC CHECKSUMS:
+  SimonGamePod: b2a5fb5ff49e6e79a7cbc42cceea0e28439cb93f
+
+PODFILE CHECKSUM: 9aabffbce0b34a6e879ec7b2a12804bb92669ab9
+
+COCOAPODS: 1.2.1
